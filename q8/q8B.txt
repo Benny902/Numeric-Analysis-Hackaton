@@ -1,0 +1,97 @@
+C:\Users\Bennysh\PycharmProjects\pythonProjectzzz\venv\Scripts\python.exe C:/Users/Bennysh/PycharmProjects/numericAnalysis2.py/main.py
+Simpson method is going by the formula - (h/3)*(f(a)+2*sigma(from j=1 to last even)*f(X2j)+4*sigma(from j=1 to last odd)*f(X2j-1)+f(b))
+h =  0.08
+a, b = -0.4, 0.4
+Adding f(start) + f(end): -0.23222430688752257 + 0.09589362245627364
+Iteration 1, Last sum += 4 * (odd index value):
+-0.13633068443124893 += -0.5386245207225094
+
+Iteration 2, Last sum += 2 * (even index value):
+-0.6749552051537584 += -0.03723338075379197
+
+Iteration 3, Last sum += 4 * (odd index value):
+-0.7121885859075504 += 0.28913361359938233
+
+Iteration 4, Last sum += 2 * (even index value):
+-0.4230549723081681 += 0.2545530305228372
+
+Iteration 5, Last sum += 4 * (odd index value):
+-0.1685019417853309 += 0.6061982845504544
+
+Iteration 6, Last sum += 2 * (even index value):
+0.43769634276512354 += 0.3094103603585617
+
+Iteration 7, Last sum += 4 * (odd index value):
+0.7471067031236852 += 0.5819194173484812
+
+Iteration 8, Last sum += 2 * (even index value):
+1.3290261204721663 += 0.2604141591743404
+
+Iteration 9, Last sum += 4 * (odd index value):
+1.5894402796465066 += 0.45164903838037757
+
+Result = h/3 * 2.0410893180268843 = 0.05442904848071692
+h =  0.04
+a, b = -0.4, 0.4
+Adding f(start) + f(end): -0.23222430688752257 + 0.09589362245627364
+Iteration 1, Last sum += 4 * (odd index value):
+-0.13633068443124893 += -0.7606628898656949
+
+Iteration 2, Last sum += 2 * (even index value):
+-0.8969935742969438 += -0.2693122603612547
+
+Iteration 3, Last sum += 4 * (odd index value):
+-1.1663058346581985 += -0.30099388237072233
+
+Iteration 4, Last sum += 2 * (even index value):
+-1.4672997170289208 += -0.03723338075379197
+
+Iteration 5, Last sum += 4 * (odd index value):
+-1.5045330977827127 += 0.12483126949136411
+
+Iteration 6, Last sum += 2 * (even index value):
+-1.3797018282913487 += 0.14456680679969117
+
+Iteration 7, Last sum += 4 * (odd index value):
+-1.2351350214916574 += 0.41658893260263197
+
+Iteration 8, Last sum += 2 * (even index value):
+-0.8185460888890255 += 0.2545530305228372
+
+Iteration 9, Last sum += 4 * (odd index value):
+-0.5639930583661883 += 0.5706786264961138
+
+Iteration 10, Last sum += 2 * (even index value):
+0.00668556812992549 += 0.3030991422752272
+
+Iteration 11, Last sum += 4 * (odd index value):
+0.3097847104051527 += 0.6206827993788409
+
+Iteration 12, Last sum += 2 * (even index value):
+0.9304675097839936 += 0.3094103603585617
+
+Iteration 13, Last sum += 4 * (odd index value):
+1.2398778701425552 += 0.6047393418534166
+
+Iteration 14, Last sum += 2 * (even index value):
+1.8446172119959718 += 0.2909597086742406
+
+Iteration 15, Last sum += 4 * (odd index value):
+2.1355769206702124 += 0.5531992983618675
+
+Iteration 16, Last sum += 2 * (even index value):
+2.68877621903208 += 0.2604141591743404
+
+Iteration 17, Last sum += 4 * (odd index value):
+2.94919037820642 += 0.48654291582384995
+
+Iteration 18, Last sum += 2 * (even index value):
+3.4357332940302703 += 0.22582451919018878
+
+Iteration 19, Last sum += 4 * (odd index value):
+3.661557813220459 += 0.4171013633847828
+
+Result = h/3 * 4.078659176605242 = 0.05438212235473656
+0.0543821223547365600000132315
+
+Process finished with exit code 0

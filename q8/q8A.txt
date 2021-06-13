@@ -1,0 +1,183 @@
+Mehthod 1 :  Bisection:
+interval (-1, -0.9):
+------------------------------------
+root : -0.9189385414123535, iterations: 21
+------------------------------------
+
+interval (-0.9, -0.8):
+guess -0.8 is not an approximated root
+
+interval (-0.8, -0.7):
+------------------------------------
+root : -0.7750974893569947, iterations: 23
+------------------------------------
+
+interval (-0.7, -0.6):
+guess -0.6000000000000001 is not an approximated root
+
+interval (-0.6, -0.5):
+------------------------------------
+root : -0.5723649501800536, iterations: 22
+------------------------------------
+
+interval (-0.5, -0.4):
+guess -0.4 is not an approximated root
+
+interval (-0.4, -0.3):
+guess -0.30000000000000004 is not an approximated root
+
+interval (-0.3, -0.2):
+------------------------------------
+root : -0.22579135894775387, iterations: 20
+------------------------------------
+
+interval (-0.2, -0.1):
+guess -0.1 is not an approximated root
+
+interval (-0.1, 0.0):
+guess -6.223015277861142e-62 is not an approximated root
+
+interval (0.0, 0.1):
+guess 0.1 is not an approximated root
+
+interval (0.1, 0.2):
+guess 0.2 is not an approximated root
+
+interval (0.2, 0.3):
+guess 0.29999999999999993 is not an approximated root
+
+interval (0.3, 0.4):
+guess 0.4 is not an approximated root
+
+interval (0.4, 0.5):
+guess 0.5 is not an approximated root
+
+interval (0.5, 0.6):
+guess 0.5999999999999999 is not an approximated root
+
+interval (0.6, 0.7):
+guess 0.7 is not an approximated root
+
+interval (0.7, 0.8):
+guess 0.8 is not an approximated root
+
+interval (0.8, 0.9):
+guess 0.8999999999999999 is not an approximated root
+
+interval (0.9, 1.0):
+guess 1.0 is not an approximated root
+
+interval (1.0, 1.1):
+guess 1.1 is not an approximated root
+
+interval (1.1, 1.2):
+guess 1.1999999999999997 is not an approximated root
+
+interval (1.2, 1.3):
+guess 1.2999999999999998 is not an approximated root
+
+interval (1.3, 1.4):
+guess 1.4 is not an approximated root
+
+interval (1.4, 1.5):
+guess 1.5 is not an approximated root
+
+interval (1.5, 1.6):
+guess 1.6 is not an approximated root
+
+interval (1.6, 1.7):
+guess 1.6999999999999997 is not an approximated root
+
+interval (1.7, 1.8):
+guess 1.7999999999999998 is not an approximated root
+
+interval (1.8, 1.9):
+guess 1.9 is not an approximated root
+
+interval (1.9, 2.0):
+guess 2.0 is not an approximated root
+
+[-0.9189385414123535, -0.7750974893569947, -0.5723649501800536, -0.22579135894775387]
+
+Process finished with exit code 0
+
+
+
+
+Method 2 : Newthon raphson
+interval (-1, -0.9):
+------------------------------------
+root : -0.9189385332046592, iterations: 5
+------------------------------------
+
+interval (-0.9, -0.8):
+
+interval (-0.8, -0.7):
+------------------------------------
+root : -0.7750974982919796, iterations: 4
+------------------------------------
+
+interval (-0.7, -0.6):
+------------------------------------
+root : -0.5723649435387966, iterations: 5
+------------------------------------
+
+interval (-0.6, -0.5):
+
+interval (-0.5, -0.4):
+
+interval (-0.4, -0.3):
+------------------------------------
+root : -0.22579138626602957, iterations: 4
+------------------------------------
+
+interval (-0.3, -0.2):
+
+interval (-0.2, -0.1):
+
+interval (-0.1, 0.0):
+
+interval (0.0, 0.1):
+
+interval (0.1, 0.2):
+
+interval (0.2, 0.3):
+
+interval (0.3, 0.4):
+
+interval (0.4, 0.5):
+
+interval (0.5, 0.6):
+
+interval (0.6, 0.7):
+
+interval (0.7, 0.8):
+
+interval (0.8, 0.9):
+
+interval (0.9, 1.0):
+
+interval (1.0, 1.1):
+
+interval (1.1, 1.2):
+
+interval (1.2, 1.3):
+
+interval (1.3, 1.4):
+
+interval (1.4, 1.5):
+
+interval (1.5, 1.6):
+
+interval (1.6, 1.7):
+
+interval (1.7, 1.8):
+
+interval (1.8, 1.9):
+
+interval (1.9, 2.0):
+
+[-0.9189385332046592, -0.7750974982919796, -0.5723649435387966, -0.22579138626602957]
+
+Process finished with exit code 0
+

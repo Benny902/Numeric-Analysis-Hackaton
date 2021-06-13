@@ -1,0 +1,105 @@
+Romberg method is using trapezoid method -  
+The formula of Trapezoidal is - sigma(from i=1 to N)*(h/2)*(f(Xi-h)+f(Xi))
+The formula of Romberg Method is - R(n,m)=1/(4^m-1)*(4^m*R(n,m-1)-R*(n-1,m-1))
+number iteration of trapezoid method: 1
+Approximation: -0.0010319931668386325
+number iteration of romberg method: 1
+Approximation: -0.000636967392349573
+The result is -
+-0.000596643789372820700000132319
+Simpson method is going by the formula - (h/3)*(f(a)+2*sigma(from j=1 to last even)*f(X2j)+4*sigma(from j=1 to last odd)*f(X2j-1)+f(b))
+h =  0.05
+a, b = 0.5, 1
+Adding f(start) + f(end): -0.00278493319694596 + -0.00024681960817335923
+Iteration 1, Last sum += 4 * (odd index value):
+-0.003031752805119319 += -0.009533729501806004
+
+Iteration 2, Last sum += 2 * (even index value):
+-0.012565482306925323 += -0.003984460904118892
+
+Iteration 3, Last sum += 4 * (odd index value):
+-0.016549943211044214 += -0.0065216368727756035
+
+Iteration 4, Last sum += 2 * (even index value):
+-0.023071580083819817 += -0.0026176142430043743
+
+Iteration 5, Last sum += 4 * (odd index value):
+-0.02568919432682419 += -0.00412797266735453
+
+Iteration 6, Last sum += 2 * (even index value):
+-0.02981716699417872 += -0.0016001970884502903
+
+Iteration 7, Last sum += 4 * (odd index value):
+-0.03141736408262901 += -0.0024414687517919135
+
+Iteration 8, Last sum += 2 * (even index value):
+-0.03385883283442093 += -0.0009167601055671794
+
+Iteration 9, Last sum += 4 * (odd index value):
+-0.03477559293998811 += -0.0013558531585052085
+
+Result = h/3 * -0.036131446098493315 = -0.0006021907683082219
+h =  0.025
+a, b = 0.5, 1
+Adding f(start) + f(end): -0.00278493319694596 + -0.00024681960817335923
+Iteration 1, Last sum += 4 * (odd index value):
+-0.003031752805119319 += -0.010337851674141833
+
+Iteration 2, Last sum += 2 * (even index value):
+-0.013369604479261152 += -0.004766864750903002
+
+Iteration 3, Last sum += 4 * (odd index value):
+-0.018136469230164154 += -0.008740540525864197
+
+Iteration 4, Last sum += 2 * (even index value):
+-0.02687700975602835 += -0.003984460904118892
+
+Iteration 5, Last sum += 4 * (odd index value):
+-0.030861470660147244 += -0.007227199847366735
+
+Iteration 6, Last sum += 2 * (even index value):
+-0.03808867050751398 += -0.0032608184363878017
+
+Iteration 7, Last sum += 4 * (odd index value):
+-0.04134948894390178 += -0.005856683588648083
+
+Iteration 8, Last sum += 2 * (even index value):
+-0.04720617253254986 += -0.0026176142430043743
+
+Iteration 9, Last sum += 4 * (odd index value):
+-0.04982378677555424 += -0.004658836581969017
+
+Iteration 10, Last sum += 2 * (even index value):
+-0.054482623357523255 += -0.002063986333677265
+
+Iteration 11, Last sum += 4 * (odd index value):
+-0.05654660969120052 += -0.003642205924089868
+
+Iteration 12, Last sum += 2 * (even index value):
+-0.06018881561529039 += -0.0016001970884502903
+
+Iteration 13, Last sum += 4 * (odd index value):
+-0.06178901270374068 += -0.0028008471291111545
+
+Iteration 14, Last sum += 2 * (even index value):
+-0.06458985983285184 += -0.0012207343758959567
+
+Iteration 15, Last sum += 4 * (odd index value):
+-0.0658105942087478 += -0.002119879595169322
+
+Iteration 16, Last sum += 2 * (even index value):
+-0.06793047380391712 += -0.0009167601055671794
+
+Iteration 17, Last sum += 4 * (odd index value):
+-0.0688472339094843 += -0.001579737150538552
+
+Iteration 18, Last sum += 2 * (even index value):
+-0.07042697106002285 += -0.0006779265792526042
+
+Iteration 19, Last sum += 4 * (odd index value):
+-0.07110489763927545 += -0.0011592232604991958
+
+Result = h/3 * -0.07226412089977464 = -0.000602201007498122
+-0.00060220100749812200000132319
+
+Process finished with exit code 0
